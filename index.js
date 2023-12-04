@@ -31,13 +31,11 @@ class weChaty {
             const sourceRoom = message.room();
             // 获取消息的文本内容
             const content = message.text();
-            // 读取同级目录下的 group 目录
             const groupDirectoryPath = './group';
-            const filesInGroupDirectory = fs.readdirSync(groupDirectoryPath);
+            const filesInGroupDirectory = fs.readFileSync(groupDirectoryPath, 'utf-8');
 
             // todo: 这里需要根据你的逻辑选择正确的群名
             const targetRoomTopic = filesInGroupDirectory; // 这里是一个示例，你需要根据实际情况进行修改
-
             const targetRoom = await this.bot.Room.find({ topic: targetRoomTopic });
             // 获取消息发送者
             const sender = message.talker();
@@ -46,7 +44,7 @@ class weChaty {
                 // 转发消息到目标群
                 targetRoom.say(`转发自群 [${await sourceRoom.topic()}]，发送者 [${sender.name()}]: ${content}`);
             } else {
-                console.log(`找不到目标群或者是群 {$targetRoomTopic} 中的消息`);
+                console.log(`找不到目标群或者是群 [${targetRoomTopic}] 中的消息`);
             }
         }
     }
