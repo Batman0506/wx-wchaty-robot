@@ -27,3 +27,8 @@ $ npm run start
 $ python main.py
 ```
 执行即可调出GUI
+---
+## main.py截图
+![](./doc/1.png)
+![](./doc/2.png)
+![](./doc/3.png)
