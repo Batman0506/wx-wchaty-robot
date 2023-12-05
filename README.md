@@ -28,6 +28,9 @@ $ python main.py
 ```
 执行即可调出GUI
 
+## 关于main.exe
+已用pyinstaller打包成了一个exe。win10环境下可以直接打开。
+
 ---
 ## main.py截图
 ![](./doc/1.png)
