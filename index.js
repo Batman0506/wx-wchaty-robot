@@ -1,3 +1,4 @@
+// 此代码仅用于学习交流
 const { WechatyBuilder } = require('wechaty');
 const qrcode = require('qrcode-terminal');
 const qr = require('qr-image');

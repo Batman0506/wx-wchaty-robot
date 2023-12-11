@@ -1,4 +1,4 @@
-# wx-wchaty-robot
+# wx-wchaty-robot 此代码仅用于学习交流
 
 ## 项目说明
 ---

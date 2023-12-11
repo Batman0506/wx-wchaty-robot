@@ -1,3 +1,4 @@
+# 此代码仅用于学习交流
 import subprocess
 import tkinter as tk
 from tkinter import scrolledtext
