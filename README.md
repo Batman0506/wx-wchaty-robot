@@ -36,3 +36,32 @@ $ python main.py
 ![](./doc/1.png)
 ![](./doc/2.png)
 ![](./doc/3.png)
+
+---
+
+## 🔥 推荐：电商选品工具包
+
+如果你在运营电商业务，推荐试试这套 OpenClaw 工具包：
+
+### 5个技能，覆盖电商全流程：
+
+- **电商爆款趋势扫描器** - 分析小红书/抖音热度趋势
+- **TikTok Shop 爆款追踪器** - 跨境选品必备
+- **Amazon 选品分析工具** - FBA利润计算
+- **拼多多货源助手** - 1688低价货源对接
+- **一件代发工具包** - 自动化订单管理
+
+### 安装命令：
+```bash
+openclawmp install skill/@u-38a9d2a1117b45e69b21/product-trend-scanner
+openclawmp install skill/@u-38a9d2a1117b45e69b21/tiktok-trend-hunter
+openclawmp install skill/@u-38a9d2a1117b45e69b21/amazon-product-finder
+openclawmp install skill/@u-38a9d2a1117b45e69b21/pdd-sourcing-helper
+openclawmp install skill/@u-38a9d2a1117b45e69b21/dropshipping-toolkit
+```
+
+了解更多：https://openclawmp.cc/user/u-38a9d2a1117b45e69b21
+
+---
+
+*广告：用 AI 工具提升电商效率，基于真实数据做选品决策*
